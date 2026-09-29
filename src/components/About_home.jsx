@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
 
-import profileGirl from "../assets/profile_girl.jpg";
+import profile_pic from "../assets/profile_pic.jpg";
+import profileGirl from "../assets/profileGirl.jpg";
 
 const Portfolio = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -23,7 +24,7 @@ const Portfolio = () => {
       <aside className="portfolio-sidebar">
         <div
           className="portfolio-bgimg"
-          style={{ backgroundImage: `url(${profileGirl})` }}
+          style={{ backgroundImage: `url(${profile_pic})` }}
         />
       </aside>
 
@@ -80,14 +81,14 @@ const Portfolio = () => {
         <header className="portfolio-header">
 
           <h1>
-            <b>Kartikeya Tripathi</b>
+            <b>SVM</b>
           </h1>
 
-          <p>Frontend && Web Deginer</p>
+          <p>YOUTUBER && CONTENT CREATER</p>
 
           {/* Mobile image */}
           <img
-            src={profileGirl}
+            src={profile_pic}
             alt="Kartikeya Tripathi"
             className="portfolio-profile-image"
           />
@@ -97,7 +98,7 @@ const Portfolio = () => {
             download
             className="portfolio-resume-btn"
           >
-            ↓ Download Resume
+            ↓ SUBSCRIBE
           </a>
 
         </header>

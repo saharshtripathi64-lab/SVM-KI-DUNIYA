@@ -12,6 +12,9 @@ import CustomCursor from "./components/CustomCursor"
 import About_home from "../src/components/About_home"
 import React from "react"
 import IntroAnimation from "./components/introAnimation"
+import YouTubeShowcase from "./components/YouTubeShowcase"
+import SocialHub from "./sections/SocialHub"
+
 
 
 export default function App(){
@@ -23,21 +26,8 @@ export default function App(){
 
 {introDone && (
 <div className="relative gradient text-white">
-  <CustomCursor/>
-  <Tooltip/>
-  <Navbar />
-  <Home />
-  <About_home/>
-  <About />
-  <Skills/>
-  <Project />
-  <Experience />
-  <Testimonials />
-  <Contact /> 
-  <Footer />
-  
+  <Home/>
 </div>
-
 
 )}
 
